@@ -1,4 +1,4 @@
-package Tarea_Github;
+package Tarea_Github.Ejemplo1;
 
 public class Figura {
     //Atributos
