@@ -20,7 +20,6 @@ class Rectangulo extends Figura {
 
     //Constructor
 
-
     public Rectangulo(String color, Double lado_B, Double lado_A) {
         super(color);
         this.lado_B = lado_B;
