@@ -35,3 +35,29 @@ class Rectangulo extends Figura {
         System.out.println("El perimetro del rectangulo es: "+2*(lado_A+lado_B));
     }
 }
+class Triangulo extends Figura {
+    //Atributos
+    double base;
+    double altura;
+    double ladoC;
+    //Constructor
+    public Triangulo(String color, double base, double altura, double ladoC) {
+        super(color);
+        this.altura = altura;
+        this.base = base;
+        this.ladoC = ladoC;
+    }
+    //Metodos heredados de la clase figura
+
+    @Override
+    public void calcularArea() {
+        super.calcularArea();
+        System.out.println("El área del triángulo es: " + (base * altura) / 2);
+    }
+
+    @Override
+    public void calcularPerimetro() {
+        super.calcularPerimetro();
+        System.out.println("El perímetro del triángulo es: " + ladoC*3);
+    }
+}
