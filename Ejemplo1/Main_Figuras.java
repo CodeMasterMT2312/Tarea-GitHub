@@ -1,8 +1,5 @@
 package Tarea_Github.Ejemplo1;
 
-import Tarea_Github.Rectangulo;
-import Tarea_Github.Triangulo;
-
 public class Main_Figuras {
     public static void main(String[] args) {
         Rectangulo figura1 = new Rectangulo("Green",8.5,16.2);
